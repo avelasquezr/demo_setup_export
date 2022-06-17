@@ -1,0 +1,20 @@
+<joblist>
+  <job>
+    <defaultTab>nodes</defaultTab>
+    <description></description>
+    <executionEnabled>true</executionEnabled>
+    <id>25b1f721-b8b7-4c47-a448-4f58869aee18</id>
+    <loglevel>INFO</loglevel>
+    <name>rooom</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <plugins />
+    <scheduleEnabled>true</scheduleEnabled>
+    <schedules />
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <exec>echo "hello"</exec>
+      </command>
+    </sequence>
+    <uuid>25b1f721-b8b7-4c47-a448-4f58869aee18</uuid>
+  </job>
+</joblist>
