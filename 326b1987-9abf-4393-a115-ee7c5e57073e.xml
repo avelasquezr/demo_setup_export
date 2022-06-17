@@ -1,0 +1,20 @@
+<joblist>
+  <job>
+    <defaultTab>nodes</defaultTab>
+    <description></description>
+    <executionEnabled>true</executionEnabled>
+    <id>326b1987-9abf-4393-a115-ee7c5e57073e</id>
+    <loglevel>INFO</loglevel>
+    <name>jobIssueRotom</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <plugins />
+    <scheduleEnabled>true</scheduleEnabled>
+    <schedules />
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <exec>echo "hello"</exec>
+      </command>
+    </sequence>
+    <uuid>326b1987-9abf-4393-a115-ee7c5e57073e</uuid>
+  </job>
+</joblist>
