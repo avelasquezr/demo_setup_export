@@ -1,0 +1,20 @@
+<joblist>
+  <job>
+    <defaultTab>nodes</defaultTab>
+    <description></description>
+    <executionEnabled>true</executionEnabled>
+    <id>fb3ecdf6-72f3-4724-8f6e-452d6c3e2177</id>
+    <loglevel>INFO</loglevel>
+    <name>userJobSCM</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <plugins />
+    <scheduleEnabled>true</scheduleEnabled>
+    <schedules />
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <exec>echo "hello world"</exec>
+      </command>
+    </sequence>
+    <uuid>fb3ecdf6-72f3-4724-8f6e-452d6c3e2177</uuid>
+  </job>
+</joblist>
