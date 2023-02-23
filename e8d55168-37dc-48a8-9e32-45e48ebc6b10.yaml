@@ -1,0 +1,18 @@
+- defaultTab: nodes
+  description: ''
+  executionEnabled: true
+  id: e8d55168-37dc-48a8-9e32-45e48ebc6b10
+  loglevel: INFO
+  name: Project1
+  nodeFilterEditable: false
+  plugins:
+    ExecutionLifecycle: {}
+  scheduleEnabled: true
+  schedules: []
+  sequence:
+    commands:
+    - exec: echo "project 1"
+    keepgoing: false
+    strategy: node-first
+  uuid: e8d55168-37dc-48a8-9e32-45e48ebc6b10
+
