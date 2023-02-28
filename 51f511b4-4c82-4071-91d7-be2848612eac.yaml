@@ -1,0 +1,19 @@
+- defaultTab: nodes
+  description: ''
+  executionEnabled: true
+  id: 51f511b4-4c82-4071-91d7-be2848612eac
+  loglevel: INFO
+  name: HelloWorld
+  nodeFilterEditable: false
+  plugins:
+    ExecutionLifecycle: {}
+  scheduleEnabled: true
+  schedules: []
+  sequence:
+    commands:
+    - description: jobId
+      exec: echo ${job.id}
+    keepgoing: false
+    strategy: node-first
+  uuid: 51f511b4-4c82-4071-91d7-be2848612eac
+
