@@ -1,0 +1,19 @@
+- defaultTab: nodes
+  description: ''
+  executionEnabled: true
+  id: ddfcfd1c-6a10-4d59-be55-7c0d5c371163
+  loglevel: INFO
+  name: printJobId
+  nodeFilterEditable: false
+  plugins:
+    ExecutionLifecycle: {}
+  scheduleEnabled: true
+  schedules: []
+  sequence:
+    commands:
+    - description: jobId
+      exec: echo ${job.id}
+    keepgoing: false
+    strategy: node-first
+  uuid: ddfcfd1c-6a10-4d59-be55-7c0d5c371163
+
