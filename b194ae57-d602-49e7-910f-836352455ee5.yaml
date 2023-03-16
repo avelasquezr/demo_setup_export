@@ -1,0 +1,30 @@
+- defaultTab: nodes
+  description: ''
+  executionEnabled: true
+  id: b194ae57-d602-49e7-910f-836352455ee5
+  loglevel: INFO
+  name: jobHackWeek
+  nodeFilterEditable: false
+  plugins:
+    ExecutionLifecycle: {}
+  scheduleEnabled: true
+  schedules: []
+  sequence:
+    commands:
+    - description: label 1
+      enabled: true
+      exec: echo 'asvv'
+    - enabled: false
+      script: select * from table;
+    - description: label 1
+      enabled: true
+      exec: echo 'asvv'
+    - enabled: true
+      exec: echo ${job.id}
+    - description: skipped job label
+      enabled: false
+      exec: echo ${job.execid}
+    keepgoing: false
+    strategy: node-first
+  uuid: b194ae57-d602-49e7-910f-836352455ee5
+
