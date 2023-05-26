@@ -12,7 +12,7 @@
   sequence:
     commands:
     - description: jobId
-      exec: echo ${job.id}
+      exec: echo ${job.name}
     keepgoing: false
     strategy: node-first
   uuid: ddfcfd1c-6a10-4d59-be55-7c0d5c371163
